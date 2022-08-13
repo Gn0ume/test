@@ -1,0 +1,7 @@
+.ship-list{
+    display: flex;
+    flex-direction: column;
+}
+.ship-data {
+    width: 100%;
+}

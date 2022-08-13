@@ -1,0 +1,75 @@
+@media (min-width:0)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    body {
+        background-color: black;
+    }
+    .game-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .game-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    body {
+        background-color: blue;
+    }
+    .game-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .game-data{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    body {
+        background-color: red;
+    }
+    .game-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .game-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 20%;
+    }
+
+    .score{
+        height: 40%;
+    }
+
+    .ships{
+        height: 60%;
+    }
+
+    .game-field{
+        width: 40%;
+        padding-bottom: 40%;
+        height: 0;
+        background-color: white;
+    }
+}
+
+.score{
+    background-color: purple;
+}
+.ships{
+    background-color: yellow;
+}
+.game-field {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
