@@ -7,8 +7,8 @@
     ],
     "scripts": {
       "start": "parcel index.html",
-      "predeploy": "rm -rf dist && parcel build index.html --public-url YOUR_REPO_NAME",
-      "deploy": "gh-pages -d dist"
+      "predeploy": "rm -rf docs && parcel build index.html --public-url YOUR_REPO_NAME",
+      "deploy": "gh-pages -d docs"
     },
     "keywords": [],
     "author": "",
