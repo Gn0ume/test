@@ -6,9 +6,9 @@
         "chrome > 80"
     ],
     "scripts": {
-      "start": "parcel index.html",
-      "predeploy": "rm -rf docs && parcel build index.html --public-url YOUR_REPO_NAME",
-      "deploy": "gh-pages -d docs"
+        "start": "parcel ./*.html",
+        "predeploy": "rm -rf docs && parcel build ./index.html --dist-dir ./docs --public-url https://gn0ume.github.io/test/",
+        "deploy": "gh-pages -d docs"
     },
     "keywords": [],
     "author": "",
